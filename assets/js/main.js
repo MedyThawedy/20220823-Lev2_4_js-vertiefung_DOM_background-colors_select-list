@@ -1,12 +1,10 @@
 let selectedElement;
 
-let btn1 = document.getElementById("button");
-
 let optionElement;
 let varColor = '';
 
 
-function changeColor() {
+let changeColor = () => {
 
     optionElement = document.getElementById("farbeAuswahlen").value;
     console.log(optionElement);
@@ -54,10 +52,4 @@ function changeColor() {
 
 */
 
-/*
-
-btn1.addEventListener('click', (e) => {
-
-
-});*/
 
